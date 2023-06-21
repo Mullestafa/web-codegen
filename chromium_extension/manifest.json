@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Web CodeGen",
+  "version": "1.0",
+  "description": "Predicts what youre about to type into your browser",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"],
+  "commands": {
+    "api_hotkey": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Q"
+      },
+      "description": "Call API"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

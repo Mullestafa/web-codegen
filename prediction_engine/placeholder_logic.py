@@ -1,2 +1,3 @@
 def get_placeholder_response():
-    return "Placeholder response"
+    print("Placeholder response called")
+    return 'Placeholder response'
